@@ -1,6 +1,12 @@
 # pmid2APA
 Ruby scripts for making APA-style citation from PMIDs.
 
+
+
+You must be install [nokogiri](http://nokogiri.org) by gem.
+
+    sudo gem install nokogiri
+
 # Useage
 Just put commmand:
 
