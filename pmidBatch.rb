@@ -2,7 +2,7 @@
 require File.dirname(__FILE__) + "/pmidAPA.rb"
 
 listFile = ARGV[0]
-mail = ARGV[1]
+
 
 citeFile = Time.now.strftime("%Y%m%d_%H%M%S") + ".cite.txt"
 reader = open(listFile)
@@ -16,7 +16,7 @@ reader.each_line {|line|
   i = i+1}
 
 for i in 0..idlist.size-1
-  cite[i] = pmidAPA(idlist[i].to_s, ARGV[1])
+  cite[i] = pmidAPA(idlist[i].to_s)
 #  p cite[i]
   sleep(1)
 end

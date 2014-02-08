@@ -1,15 +1,15 @@
 # coding: utf-8
-def pmidAPA(pmID, email)
+def pmidAPA(pmID)
   require 'nokogiri'
   require 'open-uri'
-
+  email = 'https://github.com/rysk-t/pmid2APA'
   # pmID = '23143516' # e.g.
   # email = 'your@adress.com'
   lastn=[]
   firstn=[]
   string=''
   url = 'http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=' + pmID + '&retmode=xml&email=' + email
-
+  
   xml = Nokogiri::XML(open(url).read) 
   i=1
   xml.xpath('//LastName').each do |node|

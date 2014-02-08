@@ -3,7 +3,7 @@ Ruby scripts for making APA-style citation from PMIDs.
 
 
 
-You must be install [nokogiri](http://nokogiri.org) by gem.
+You must install [nokogiri](http://nokogiri.org) by gem.
 
     sudo gem install nokogiri
 
@@ -11,11 +11,7 @@ You must be install [nokogiri](http://nokogiri.org) by gem.
 Just put commmand:
 
 
-    ruby pmidBatch hoge.list your@email.com
-
-
-Email is demanded by pubmed. See below to use.
-
+    ruby pmidBatch PMIDlist.example.txt
 
 [NCBI](http://eutils.ncbi.nlm.nih.gov/About/disclaimer.html)
 

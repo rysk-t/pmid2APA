@@ -1,8 +1,0 @@
-* HUBEL DH, WIESEL TN (1963) Shape and arrangement of columns in cat's striate cortex. The Journal of physiology 165:559-68.
-
-* Ikezoe K, Mori Y, Kitamura K, Tamura H, Fujita I (2013) Relationship between the local structure of orientation map and the strength of orientation tuning of neurons in monkey V1: a 2-photon calcium imaging study. The Journal of neuroscience : the official journal of the Society for Neuroscience 33:16818-27.
-
-* Nauhaus I, Nielsen KJ, Disney AA, Callaway EM (2012) Orthogonal micro-organization of orientation and spatial frequency in primate primary visual cortex. Nature neuroscience 15:1683-90.
-
-* Ohki K, Chung S, Ch'ng YH, Kara P, Reid RC (2005) Functional imaging with cellular resolution reveals precise micro-architecture in visual cortex. Nature 433:597-603.
-
