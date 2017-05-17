@@ -33,6 +33,7 @@ def pmidAPA(pmID)
            xml.xpath('//ArticleTitle').text + " " + 
            xml.xpath('//Journal/Title').text + " " + 
            xml.xpath('//JournalIssue/Volume').text + ":" + xml.xpath('//MedlinePgn').text + "."
-#  p string
+  #  p string
+  puts string
   return string
 end
