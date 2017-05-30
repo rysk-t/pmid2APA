@@ -28,10 +28,12 @@ def pmidAPA(pmID)
       string = string + ", "
     end
   end
-  string = string + "(" +
-           xml.xpath('//PubDate/Year').text + ") " +
+
+  pubYear =  xml.xpath('//PubDate/Year').text + xml.xpath('//PubDate/MedlineDate').text
+  pubYear = pubYear[0..3]
+  string = string + "(" + pubYear + ") " + 
            xml.xpath('//ArticleTitle').text + " " + 
-           xml.xpath('//Journal/Title').text + " " + 
+           xml.xpath('//Journal/ISOAbbreviation').text + " " + 
            xml.xpath('//JournalIssue/Volume').text + ":" + xml.xpath('//MedlinePgn').text + "."
   #  p string
   puts string
